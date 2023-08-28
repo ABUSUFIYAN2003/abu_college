@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Recovery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>Password Recovery</h1></center>
+    <p style="color: blueviolet; font-size:x-large;">Enter your email/ph number to reset your password:</p>
+    <br>
+    <form action="reset_password.php" method="post">
+        <table class="login">
+            <tr>
+                <td>email or mobile</td>
+                <td>otp</td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" name="email" required><br></td>
+                <td><input type="email" id="email" name="email" required></td>
+                <td><button onclick="myFunctions()">ok</button></td>
+                
+            </tr>
+            
+<script>
+    function myFunctions() {
+      alert("otp verifried");
+    }
+    </script>
+       
+            <tr>
+                <td>new password</td>
+                <td>re-enter the password</td>
+            </tr>
+            <tr>
+                <td><input type="new password" id="email"required><br></td>
+                <td><input type="re-enter password" name="email" required></td>
+                <td><button onclick="myFunction()">reset password</button></td>
+                
+            </tr>
+</table>
+<br>
+
+<script>
+    function myFunction() {
+      alert("password succesfully changed");
+    }
+    </script>
+        </form>
+</body>
+</html>
